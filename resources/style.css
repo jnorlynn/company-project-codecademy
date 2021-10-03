@@ -100,6 +100,9 @@ li {
     padding: .2rem 1rem;
 }
 
+
+
+
 /* products section*/
 
 .products {
@@ -108,8 +111,10 @@ li {
     
 }
 
-.product {
-    
+.product .box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     min-width: 150px;
 }
 
@@ -120,6 +125,8 @@ li {
 .product img {
     max-width: 95%;
 }
+
+
 
 /* team section */
 
