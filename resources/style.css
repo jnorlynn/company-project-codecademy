@@ -1,0 +1,71 @@
+/* fonts */
+
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/bebasneue/v2/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+/* universal */
+.main-content {
+position: relative;
+top: 5.3125rem
+}
+
+/* header */
+
+header {
+    position: fixed;
+    background-color: dimgrey;
+}
+
+header .content {
+    display: flex;
+
+}
+
+
+/*
+.logo {
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+}
+*/
+
+.logo img {
+    height: 4.5rem;
+    border-radius: 50%;
+}
+
+/* banner */
+
+.banner {
+    background-image: url("https://media.istockphoto.com/photos/daisies-in-the-field-at-sunrise-meadow-with-flowers-and-fog-at-sunset-picture-id1222649527?b=1&k=20&m=1222649527&s=170667a&w=0&h=dr4Y4GO0IKF_nIg9KSp7Xy9DenNXfRG6H31Rne_wLSo=");
+    background-repeat: no-repeat;
+    height: 35rem;
+}
