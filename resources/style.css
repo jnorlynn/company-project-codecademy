@@ -34,7 +34,7 @@ h6 {
 
 .main-content {
 position: relative;
-top: 5.3125rem
+top: 7.3125rem
 }
 
 .center {
@@ -88,6 +88,16 @@ li {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.banner h2 {
+    background-color: rgba(230, 242, 245, 0.6);
+    padding: .2rem 1.5rem;
+}
+
+.banner-box {
+    background-color: rgba(126, 144, 148, .60);
+    padding: .2rem 1rem;
 }
 
 /* products section*/
