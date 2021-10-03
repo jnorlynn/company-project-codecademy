@@ -40,12 +40,14 @@ top: 5.3125rem
 
 header {
     position: fixed;
+    width: 100%;
     background-color: rgba(126, 144, 148, .90);
     z-index: 10;
 }
 
 header .content {
     display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -68,6 +70,7 @@ header .content {
 .banner {
     background-image: url("https://media.istockphoto.com/photos/daisies-in-the-field-at-sunrise-meadow-with-flowers-and-fog-at-sunset-picture-id1222649527?b=1&k=20&m=1222649527&s=170667a&w=0&h=dr4Y4GO0IKF_nIg9KSp7Xy9DenNXfRG6H31Rne_wLSo=");
     background-repeat: no-repeat;
+    background-position: center;
     height: 25rem;
     display: flex;
     justify-content: space-around;
@@ -77,5 +80,16 @@ header .content {
 /* products section*/
 
 .products {
+    display: flex;
+    justify-content: space-around;
+}
 
+.box {
+
+    width: 30%;
+}
+
+.product img {
+
+    max-width: 90%;
 }
