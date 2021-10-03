@@ -61,6 +61,7 @@ ul {
 }
 
 li {
+    margin: .5rem auto;
     border: 1px solid rgb(126, 144, 148);
 }
 
@@ -148,4 +149,13 @@ li {
     .teammember {
         margin: .6rem auto;
     }
+}
+
+
+/* contact locations section */
+
+#contact {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(126, 144, 148, .90);
 }
