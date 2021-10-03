@@ -105,10 +105,11 @@ li {
 .products {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    
 }
 
 .product {
+    
     min-width: 150px;
 }
 
