@@ -94,7 +94,7 @@ header .content {
 }
 
 .product img {
-    max-width: 90%;
+    max-width: 95%;
 }
 
 /* team section */
@@ -107,7 +107,10 @@ header .content {
 
 .teammember {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    margin: 1rem 1rem;
+    padding: .8rem 1.2rem;
     border: 1px solid rgba(126, 144, 148, .90);
 }
 
@@ -121,7 +124,7 @@ header .content {
     height: 15rem;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 860px) {
     #team-section {
       flex-flow: column;
       justify-content: center;
@@ -129,6 +132,6 @@ header .content {
     }
 
     .teammember {
-        margin: 0 auto;
+        margin: .6rem auto;
     }
 }
