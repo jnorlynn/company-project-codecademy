@@ -36,6 +36,10 @@ position: relative;
 top: 5.3125rem
 }
 
+.center {
+    text-align: center;
+}
+
 /* header */
 
 header {
@@ -51,6 +55,13 @@ header .content {
     align-items: center;
 }
 
+ul {
+    list-style: none;
+}
+
+li {
+    border: 1px solid rgb(126, 144, 148);
+}
 
 /*
 .logo {
@@ -61,7 +72,7 @@ header .content {
 */
 
 .logo img {
-    height: 4.5rem;
+    height: 6.5rem;
     border-radius: 50%;
 }
 
@@ -100,8 +111,9 @@ header .content {
 /* team section */
 
 #team-section {
+    background-color: rgba(230, 242, 245, 0.9);
     display: flex;
-    padding: 4rem 5%;
+    padding: 3rem 3%;
     justify-content: space-around;
 }
 
@@ -109,13 +121,13 @@ header .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 1rem 1rem;
+    margin: 1rem .5rem;
     padding: .8rem 1.2rem;
     border: 1px solid rgba(126, 144, 148, .90);
 }
 
 .teammember .box {
-    margin: 0 auto;
+    margin: 0 1rem;
     width: 30%;
 }
 
