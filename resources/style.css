@@ -99,11 +99,34 @@ header .content {
 
 /* team section */
 
-.team {
+#team-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.teammember {
     display: flex;
     border: 1px solid rgba(126, 144, 148, .90);
 }
 
+.teammember .box {
+    margin: 0 auto;
+    width: 30%;
+}
+
 .teammember img {
     max-width: 95%;
+    height: 15rem;
+}
+
+@media only screen and (max-width: 760px) {
+    #team-section {
+      flex-flow: column;
+      justify-content: center;
+      padding: 0;
+    }
+
+    .teammember {
+        margin: 0 auto;
+    }
 }
