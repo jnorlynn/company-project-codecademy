@@ -107,7 +107,7 @@ li {
 
 /* products section*/
 
-.products {
+#products {
   display: flex;
   justify-content: space-around;
 }
@@ -128,9 +128,10 @@ li {
 }
 
 @media only screen and (max-width: 860px) {
-  .products {
+  #products {
     flex-flow: column;
     justify-content: center;
+    align-items: center;
     padding: 0;
   }
 
